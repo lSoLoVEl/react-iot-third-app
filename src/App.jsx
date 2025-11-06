@@ -8,7 +8,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/pageA" element={<PageA />} />
+        <Route path="/" element={<PageA />} />
         <Route path="/pageB" element={<PageB />} />
         <Route path="/pageC" element={<PageC />} />
         <Route path="/pageD" element={<PageD />} />
